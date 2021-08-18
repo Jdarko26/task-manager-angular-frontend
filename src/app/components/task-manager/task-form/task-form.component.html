@@ -1,0 +1,11 @@
+<div class="">
+    <a class="btn btn-dark float-right mb-3" routerLink="/logout">Logout</a>
+</div>
+<form (ngSubmit)="Add()">
+    <div class="form-group">
+        <label for="task"> Enter Task Title:</label>
+        <input type="text" id="task" name="title " [(ngModel)]="title " class="form-control " placeholder="Enter Task Title">
+
+    </div>
+    <button class="btn btn-danger">Add Task</button>
+</form>
